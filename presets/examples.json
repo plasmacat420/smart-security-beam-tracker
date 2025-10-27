@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Example 1",
+    "description": "Basic beam configuration - 8 beams",
+    "expectedBeams": 8,
+    "data": [
+      "011001",
+      "000000",
+      "010100",
+      "001000"
+    ]
+  },
+  {
+    "name": "Example 2",
+    "description": "No beams - all devices in same row",
+    "expectedBeams": 0,
+    "data": [
+      "000",
+      "111",
+      "000"
+    ]
+  },
+  {
+    "name": "Maximum Beams",
+    "description": "Dense device placement - 9 beams",
+    "expectedBeams": 9,
+    "data": [
+      "111",
+      "000",
+      "111"
+    ]
+  },
+  {
+    "name": "Sparse Layout",
+    "description": "Minimal devices - 2 beams",
+    "expectedBeams": 2,
+    "data": [
+      "10000",
+      "00000",
+      "00001",
+      "00000",
+      "01000"
+    ]
+  },
+  {
+    "name": "Single Column",
+    "description": "Vertical alignment - 3 beams",
+    "expectedBeams": 3,
+    "data": [
+      "10",
+      "00",
+      "10",
+      "00",
+      "10"
+    ]
+  },
+  {
+    "name": "Checkerboard",
+    "description": "Alternating pattern - 16 beams",
+    "expectedBeams": 16,
+    "data": [
+      "1010",
+      "0000",
+      "1010",
+      "0000",
+      "1010"
+    ]
+  },
+  {
+    "name": "Edge Case 1",
+    "description": "Single device - 0 beams",
+    "expectedBeams": 0,
+    "data": [
+      "100",
+      "000",
+      "000"
+    ]
+  },
+  {
+    "name": "Edge Case 2",
+    "description": "Two devices same row - 0 beams",
+    "expectedBeams": 0,
+    "data": [
+      "110",
+      "000",
+      "000"
+    ]
+  },
+  {
+    "name": "Complex Pattern",
+    "description": "Mixed density - 15 beams",
+    "expectedBeams": 15,
+    "data": [
+      "11100",
+      "00000",
+      "01010",
+      "00000",
+      "10001"
+    ]
+  },
+  {
+    "name": "Full Coverage",
+    "description": "Every other row full - 18 beams",
+    "expectedBeams": 18,
+    "data": [
+      "111",
+      "000",
+      "111",
+      "000",
+      "111"
+    ]
+  }
+]

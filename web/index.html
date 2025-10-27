@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Laser Beam Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔐 Security Laser Beam Visualizer</h1>
+            <p class="subtitle">Interactive visualization of security device laser beams</p>
+            <p class="subtitle" style="font-size: 0.9rem; margin-top: 5px; opacity: 0.85;">
+                👆 Example loaded! Try "Calculate Beams" or "Animate" to see it in action
+            </p>
+        </header>
+
+        <main>
+            <div class="controls">
+                <div class="control-group">
+                    <h3>Grid Configuration</h3>
+                    <div class="input-row">
+                        <label>Rows: <input type="number" id="rows" value="8" min="1" max="30"></label>
+                        <label>Cols: <input type="number" id="cols" value="8" min="1" max="30"></label>
+                        <button id="createGrid" class="btn btn-primary">Create Grid</button>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <h3>Actions</h3>
+                    <div class="button-row">
+                        <button id="calculate" class="btn btn-success">Calculate Beams</button>
+                        <button id="animate" class="btn btn-info">Animate</button>
+                        <button id="random" class="btn btn-secondary">Random</button>
+                        <button id="clear" class="btn btn-danger">Clear</button>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <h3>Presets</h3>
+                    <select id="presets" class="preset-select">
+                        <option value="">Select a preset...</option>
+                        <option value="example1">Example 1 (8 beams)</option>
+                        <option value="example2">No Beams</option>
+                        <option value="maxBeams">Maximum Beams</option>
+                        <option value="sparse">Sparse Layout</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="visualization">
+                <div class="grid-container">
+                    <canvas id="gridCanvas"></canvas>
+                    <div id="animationInfo" class="animation-info" style="display: none;">
+                        <h4>⚡ Algorithm Progress</h4>
+                        <div id="animationStep" class="animation-step"></div>
+                        <div class="progress-bar">
+                            <div id="progressFill" class="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats">
+                    <h3>Statistics</h3>
+                    <div class="stat-item">
+                        <span class="stat-label">Total Devices:</span>
+                        <span id="totalDevices" class="stat-value">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Laser Beams:</span>
+                        <span id="totalBeams" class="stat-value highlight">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Avg Beams/Device:</span>
+                        <span id="avgBeams" class="stat-value">0.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>How It Works</h3>
+                <div class="info-content">
+                    <div class="legend">
+                        <h4>Legend</h4>
+                        <div class="legend-item">
+                            <span class="device-indicator"></span> Security Device
+                        </div>
+                        <div class="legend-item">
+                            <span class="beam-indicator"></span> Laser Beam
+                        </div>
+                        <div class="legend-item">
+                            <span class="empty-indicator"></span> Empty Cell
+                        </div>
+                    </div>
+                    <div class="instructions">
+                        <h4>Instructions</h4>
+                        <ul>
+                            <li>Click cells to toggle security devices</li>
+                            <li>Devices must be on different rows with no devices between them to create beams</li>
+                            <li>Each device pair creates one laser beam</li>
+                            <li>Use presets to see example configurations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Based on LeetCode: Number of Laser Beams in a Bank |
+               <a href="https://github.com/yourusername/security_laser" target="_blank">View on GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="visualizer.js"></script>
+</body>
+</html>
