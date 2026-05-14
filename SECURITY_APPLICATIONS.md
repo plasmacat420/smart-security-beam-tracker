@@ -262,9 +262,9 @@ Response: {
 ## 🎯 Market Analysis
 
 ### Total Addressable Market (TAM)
-- **Smart Home Security:** $80B (2025)
-- **Commercial Security:** $120B globally
-- **IoT Sensors:** 25B+ devices
+- **Smart Home Security:** $100B+ (2027)
+- **Commercial Security:** $150B+ globally
+- **IoT Sensors:** 40B+ devices
 
 ### Target Segments
 1. **Early Adopters** (Current)
@@ -363,7 +363,7 @@ Response: {
 
 Ready to deploy this in your facility?
 
-1. **Contact Us:** your.email@example.com
+1. **Contact Us:** prepreater1@gmail.com
 2. **Schedule Demo:** Book a free consultation
 3. **Pilot Program:** 30-day trial
 4. **Full Deployment:** Professional installation

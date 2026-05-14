@@ -216,7 +216,7 @@ Transformed a LeetCode algorithm into a full-featured project:
 ✅ Performance benchmarking
 
 Tech: C++17, HTML/CSS/JS, CMake
-GitHub: [your-link]
+GitHub: https://github.com/plasmacat420/smart-security-beam-tracker
 
 #SoftwareEngineering #C++ #WebDev #Algorithms
 ```

@@ -25,15 +25,15 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
 - ✅ C++ CLI application
 - ✅ Zero-dependency web demo
 
-**Status:** ✅ COMPLETE (January 2025)
+**Status:** ✅ COMPLETE (May 2026)
 
 ---
 
-## 🔄 Phase 2: IoT Integration (Q1 2025)
+## 🔄 Phase 2: IoT Integration (Q3 2026)
 
 **Goal:** Connect to real hardware sensors
 
-### 2.1 Hardware Connectivity (Feb 2025)
+### 2.1 Hardware Connectivity (Aug 2026)
 - [ ] **REST API Backend**
   - Sensor registration endpoint
   - Real-time status updates
@@ -52,7 +52,7 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
   - Configurable failure scenarios
   - Performance stress testing
 
-### 2.2 Device Management (Mar 2025)
+### 2.2 Device Management (Sep 2026)
 - [ ] **Sensor Configuration UI**
   - Add/remove devices
   - Configure zones
@@ -74,11 +74,11 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
 
 ---
 
-## 📱 Phase 3: Mobile & Alerts (Q2 2025)
+## 📱 Phase 3: Mobile & Alerts (Q4 2026)
 
 **Goal:** Enable on-the-go monitoring and instant notifications
 
-### 3.1 Mobile Application (Apr-May 2025)
+### 3.1 Mobile Application (Oct-Nov 2026)
 - [ ] **React Native App**
   - iOS and Android support
   - Live dashboard view
@@ -93,7 +93,7 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
   - Device battery status
   - Network connectivity indicator
 
-### 3.2 Alert System (May-Jun 2025)
+### 3.2 Alert System (Nov-Dec 2026)
 - [ ] **Multi-Channel Notifications**
   - Push notifications
   - Email alerts
@@ -116,11 +116,11 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
 
 ---
 
-## 🤖 Phase 4: AI & Analytics (Q3 2025)
+## 🤖 Phase 4: AI & Analytics (Q1 2027)
 
 **Goal:** Intelligent threat detection and predictive insights
 
-### 4.1 Machine Learning (Jul-Aug 2025)
+### 4.1 Machine Learning (Jan-Feb 2027)
 - [ ] **Anomaly Detection**
   - Pattern learning
   - Unusual activity alerts
@@ -133,7 +133,7 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
   - Failure forecasting
   - Replacement recommendations
 
-### 4.2 Advanced Analytics (Aug-Sep 2025)
+### 4.2 Advanced Analytics (Mar-Apr 2027)
 - [ ] **Historical Analysis**
   - Activity heatmaps
   - Time-of-day patterns
@@ -154,11 +154,11 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
 
 ---
 
-## 🌐 Phase 5: Enterprise Features (Q4 2025)
+## 🌐 Phase 5: Enterprise Features (Q2 2027)
 
 **Goal:** Scale to commercial and enterprise deployments
 
-### 5.1 Multi-Site Management (Oct 2025)
+### 5.1 Multi-Site Management (May 2027)
 - [ ] **Central Dashboard**
   - Manage multiple locations
   - Site comparison view
@@ -171,7 +171,7 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
   - Audit logging
   - SSO integration (SAML/OAuth)
 
-### 5.2 Enterprise Integration (Nov-Dec 2025)
+### 5.2 Enterprise Integration (Jun-Jul 2027)
 - [ ] **SIEM Integration**
   - Splunk connector
   - ELK stack support
@@ -196,7 +196,7 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
 
 **Goal:** Push boundaries with cutting-edge technology
 
-### 6.1 AR/VR (Q1 2026)
+### 6.1 AR/VR (Q3 2027)
 - [ ] **Augmented Reality**
   - Mobile AR overlay
   - Point phone to see virtual beams
@@ -209,7 +209,7 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
   - Incident replay
   - Coverage planning tool
 
-### 6.2 Advanced Hardware (Q2 2026)
+### 6.2 Advanced Hardware (Q4 2027)
 - [ ] **Drone Integration**
   - Automated perimeter patrol
   - Aerial coverage mapping
@@ -222,7 +222,7 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
   - Behavior analysis
   - Object detection
 
-### 6.3 Blockchain & Web3 (Q3 2026)
+### 6.3 Blockchain & Web3 (Q1 2028)
 - [ ] **Tamper-Proof Logging**
   - Blockchain audit trail
   - Immutable incident records
@@ -301,37 +301,28 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
 6. **Testing** - Bug reports and QA
 
 **How to contribute:**
-1. Check [CONTRIBUTING.md](CONTRIBUTING.md)
-2. Pick an issue from GitHub
-3. Fork, code, test
-4. Submit pull request
+1. Pick an issue from [GitHub Issues](https://github.com/plasmacat420/smart-security-beam-tracker/issues)
+2. Fork, code, test
+3. Submit pull request
 
 ---
 
 ## 💡 Feature Requests
 
-**Top community requests:**
-1. 🔥 Google Home / Alexa integration (350 votes)
-2. 🔥 Mobile app (290 votes)
-3. 🔥 3D floor plan view (210 votes)
-4. 🔥 Homebridge plugin (180 votes)
-5. Video camera integration (150 votes)
-
-**Submit your ideas:**
-- GitHub Discussions
-- Feature request form
-- Community Discord/Slack
+**Submit your ideas via:**
+- [GitHub Discussions](https://github.com/plasmacat420/smart-security-beam-tracker/discussions)
+- [GitHub Issues](https://github.com/plasmacat420/smart-security-beam-tracker/issues)
 
 ---
 
 ## 📅 Release Schedule
 
 ### Public Releases
-- **v1.0** - ✅ January 2025 (Current - Visualization)
-- **v1.5** - March 2025 (IoT Integration Beta)
-- **v2.0** - June 2025 (Mobile App + Alerts)
-- **v2.5** - September 2025 (AI & Analytics)
-- **v3.0** - December 2025 (Enterprise Features)
+- **v1.0** - ✅ May 2026 (Current - Visualization)
+- **v1.5** - Q3 2026 (IoT Integration Beta)
+- **v2.0** - Q4 2026 (Mobile App + Alerts)
+- **v2.5** - Q1 2027 (AI & Analytics)
+- **v3.0** - Q2 2027 (Enterprise Features)
 
 ### Beta Program
 - Early access to new features
@@ -368,23 +359,20 @@ Transform from a visualization demo into a comprehensive IoT security monitoring
 - Currency localization
 
 ### Target Markets
-- **North America** - Q1 2025 (Launch)
-- **Europe** - Q3 2025
-- **Asia-Pacific** - Q1 2026
-- **Latin America** - Q3 2026
+- **North America** - Q2 2026 (Launch)
+- **Europe** - Q4 2026
+- **Asia-Pacific** - Q2 2027
+- **Latin America** - Q4 2027
 
 ---
 
 ## 📞 Stay Updated
 
-- **GitHub:** [Watch releases](https://github.com/yourusername/smart-security-beam-tracker)
-- **Newsletter:** [Subscribe](mailto:your.email@example.com?subject=Newsletter)
-- **Twitter:** [@yourhandle](https://twitter.com/yourhandle)
-- **Discord:** [Join community](https://discord.gg/yourserver)
+- **GitHub:** [Watch releases](https://github.com/plasmacat420/smart-security-beam-tracker)
+- **Email:** [prepreater1@gmail.com](mailto:prepreater1@gmail.com)
 
 ---
 
 **This roadmap is a living document. Priorities may shift based on user feedback and market demands.**
 
-**Last Updated:** January 2025
-**Next Review:** April 2025
+**Last Updated:** May 2026

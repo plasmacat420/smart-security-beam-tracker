@@ -2,10 +2,10 @@
 
 > **An intelligent security monitoring dashboard that visualizes laser beam connections between security devices in real-time**
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://yourusername.github.io/smart-security-beam-tracker)
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://plasmacat420.github.io/smart-security-beam-tracker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)](https://www.javascript.com/)
-[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red)](https://github.com/yourusername)
+[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red)](https://github.com/plasmacat420)
 
 ![Security Beam Tracker Demo](https://via.placeholder.com/1200x600/0a0e27/00d9ff?text=Smart+Security+Beam+Tracker+Demo)
 
@@ -89,12 +89,12 @@ Traditional security systems show you *which* sensors are triggered, but not *ho
 ### Option 1: Instant Demo (No Installation)
 
 **Try it right now:**
-1. Clone this repo or [visit the live demo](https://yourusername.github.io/smart-security-beam-tracker)
+1. Clone this repo or [visit the live demo](https://plasmacat420.github.io/smart-security-beam-tracker)
 2. Open `web/index.html` in your browser
 3. Click "Animate" to see the magic!
 
 ```bash
-git clone https://github.com/yourusername/smart-security-beam-tracker.git
+git clone https://github.com/plasmacat420/smart-security-beam-tracker.git
 cd smart-security-beam-tracker/web
 # Open index.html in your browser
 ```
@@ -247,9 +247,9 @@ See [ROADMAP.md](ROADMAP.md) for detailed plans.
 ## 💼 Commercial Potential
 
 ### Market Opportunity
-- **Smart Home Market**: $80B+ by 2025
-- **Physical Security**: $120B+ globally
-- **IoT Sensors**: 25B+ devices by 2025
+- **Smart Home Market**: $100B+ by 2027
+- **Physical Security**: $150B+ globally
+- **IoT Sensors**: 40B+ devices by 2027
 
 ### Target Customers
 - 🏠 Homeowners with smart security
@@ -271,7 +271,6 @@ See [ROADMAP.md](ROADMAP.md) for detailed plans.
 - **[ALGORITHM.md](docs/ALGORITHM.md)** - Deep technical dive
 - **[SECURITY_APPLICATIONS.md](SECURITY_APPLICATIONS.md)** - Real-world use cases
 - **[ROADMAP.md](ROADMAP.md)** - Future development plans
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute
 - **[LICENSE](LICENSE)** - MIT License
 
 ## 🤝 Contributing
@@ -282,7 +281,7 @@ Contributions are welcome! This project is perfect for:
 - **Security professionals** - Real-world use case feedback
 - **Algorithm enthusiasts** - Optimization improvements
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Open an issue or submit a pull request on [GitHub](https://github.com/plasmacat420/smart-security-beam-tracker).
 
 ## 📊 Project Stats
 
@@ -317,11 +316,9 @@ See [LICENSE](LICENSE) for details.
 
 ## 👤 Author
 
-**[Your Name]**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Portfolio: [your-website.com](https://your-website.com)
-- Email: your.email@example.com
+**Faiz Shaikh**
+- GitHub: [@plasmacat420](https://github.com/plasmacat420)
+- Email: prepreater1@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -333,6 +330,6 @@ See [LICENSE](LICENSE) for details.
 
 **⭐ If you find this project useful, please star it on GitHub!**
 
-**🔗 Live Demo:** [yourusername.github.io/smart-security-beam-tracker](https://yourusername.github.io/smart-security-beam-tracker)
+**🔗 Live Demo:** [plasmacat420.github.io/smart-security-beam-tracker](https://plasmacat420.github.io/smart-security-beam-tracker)
 
 **Made with ❤️ and JavaScript**
